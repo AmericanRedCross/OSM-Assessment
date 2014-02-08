@@ -1,0 +1,105 @@
+
+hr {
+  width: 0;
+  height: 0;
+}
+.cg-intro {
+  padding: 10px;
+  font-size: 16px;
+  color: #5a5a5a;
+  border-bottom: 1px solid #e5e5e5;
+}
+.cg-intro h1 {
+  color: #ed1b2e;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.cg-intro p {
+  font-weight: 300;
+  line-height: 1.5;
+}
+.otherPlaces {
+  padding: 15px 20px;
+  color: black;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+}
+.otherPlaces strong {
+  color: #555;
+}
+.cg-sidebar .nav > li > a {
+  color: #6d6e70;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 90px 0 20px;
+  border-bottom: 4px solid #ed1b2e;
+}
+
+.border {
+  border: 1px solid #d7d7d8;
+}
+
+.sideNote {
+  color: #6d6e70;
+  font-weight: 300;
+}
+
+/*Custom CSS Added by Daniel J. Dufour (Daniel.Dufour@RedCross.Org)*/
+p {margin: 20px 0px;}
+
+table#damageClassificationTable {width: 80%; margin: 0 auto;}
+table#damageClassificationTable  tr:first-child {border-bottom: 3px solid black;}
+table#damageClassificationTable  tr td, table#damageClassificationTable  tr th{padding-left: 5px;}
+table#tableRecommendations {margin: 0 auto;}
+table#tableRecommendations td, table#tableRecommendations th {padding-left: 10px; padding-right: 10px;}
+table#tableRecommendations td{color: rgb(77,77,77);}
+
+/* Leaflet maps */
+#map {height: 240px;}
+#map_changes{height: 400px;}
+#map_imagery{top:0; bottom:0; width:100%; height: 400px;}
+#map_classification{top:0; bottom:0; width:100%; height: 400px;}
+
+/* Legend for map_changes */
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+/* Legend for map_changes */
+.legend_classification {
+    color: #555;
+}
+.legend_classification i {
+    padding-top: 1px;
+	width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 8px;
+    opacity: 1;
+}
+
+/* CSS for map_imagery */
+#range {width: 100%;}
+.leaflet-top .leaflet-control-zoom {margin-top: 20px;}
+
+/* CSS for Map Captions */
+.caption {font-style: italic; text-align: left;}
