@@ -48,7 +48,8 @@ hr {
 /*Custom CSS Added by Daniel J. Dufour (Daniel.Dufour@RedCross.Org)*/
 p {margin: 20px 0px;}
 
-table#damageClassificationTable {width: 80%; margin: 0 auto;}
+table#damageClassificationTable {text-align: center; width: 80%; margin: 0 auto;}
+table#damageClassificationTable  tbody tr th {text-align: center;}
 table#damageClassificationTable  tr:first-child {border-bottom: 3px solid black;}
 table#damageClassificationTable  tr td, table#damageClassificationTable  tr th{padding-left: 5px;}
 table#tableRecommendations {margin: 0 auto;}
